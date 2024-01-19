@@ -7,3 +7,4 @@ Dublin Opinion was a blog run by my friend Donagh Brennan from October 2006 to D
 The original website is now 404 but as far as I can tell, most of the content is still available on the [wayback machine](https://web.archive.org/web/20171221233435/http://dublinopinion.com/).
 
 ![](/cropped-1234-dublinopinionbanner.jpg)
+
