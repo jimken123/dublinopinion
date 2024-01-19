@@ -1,0 +1,57 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+document.write("\x3cdiv class\x3d\x22feedburnerFeedBlock\x22 id\x3d\x22irishleftreview/feed3an7plq6cjjd9r9qmrhe4o4beo\x22\x3e");
+document.write("\x3cp class\x3d\x22feedTitle\x22\x3e\x3cimg src\x3d\x22http://www.irishleftreview.org/favicon.ico\x22 /\x3e\x3ca href\x3d\x22http://www.irishleftreview.org\x22\x3eIrish Left Review\x3c/a\x3e\x3c/p\x3e");
+document.write("\x3cul\x3e");
+document.write("\x3cli\x3e\x3cspan class\x3d\x22headline\x22\x3e\x3ca href\x3d\x22http://www.irishleftreview.org/2016/09/19/books-worth-reading/\x22 target\x3d\x22_blank\x22 \x3eNew Books Worth Reading\x3c/a\x3e\x3c/span\x3e");
+document.write("\x3cdiv\x3e You don\u2019t have to be a Corbynista to know that the Establishment does not encourage radical politics of the genuinely socialist kind and that it will do whatever it can to belittle any group garnering mass support for daring to challenge the status quo. In the domain of cultural\x26#8230;\x3c/div\x3e");
+document.write("\x3c/li\x3e");
+document.write("\x3cli\x3e\x3cspan class\x3d\x22headline\x22\x3e\x3ca href\x3d\x22http://www.irishleftreview.org/2016/09/05/21360/\x22 target\x3d\x22_blank\x22 \x3e13 Billion \x26ndash; Lucky for some?\x3c/a\x3e\x3c/span\x3e");
+document.write("\x3cdiv\x3e Cork is a pretty city on the river Lee in the south of Ireland where I lived for part of my childhood. Cupertino in the Silicon Valley is the HQ of Apple Inc. As an Irishman and former Silicon Valley software engineer (who is ironically typing this article on\x26#8230;\x3c/div\x3e");
+document.write("\x3c/li\x3e");
+document.write("\x3cli\x3e\x3cspan class\x3d\x22headline\x22\x3e\x3ca href\x3d\x22http://www.irishleftreview.org/2016/08/29/rebuilding-ireland-long-promise-short-detail/\x22 target\x3d\x22_blank\x22 \x3eRebuilding Ireland: Long on Promise, Short on Detail\x3c/a\x3e\x3c/span\x3e");
+document.write("\x3cdiv\x3e In July, the government announced a new housing plan. Called Rebuilding Ireland, it is designed to tackle the current shortage in housing supply. It is an ambitious plan with praise for itself as radical and innovative. In truth, it is neither of these things. This plan was put together\x26#8230;\x3c/div\x3e");
+document.write("\x3c/li\x3e");
+document.write("\x3cli\x3e\x3cspan class\x3d\x22headline\x22\x3e\x3ca href\x3d\x22http://www.irishleftreview.org/2016/08/29/brexit-issues-comments-current-situation/\x22 target\x3d\x22_blank\x22 \x3eBrexit and Other Issues: Comments on the Current Situation\x3c/a\x3e\x3c/span\x3e");
+document.write("\x3cdiv\x3e The outcome of the Brexit referendum is a shock to all of the established political parties and to the British ruling class. The long term political and economic impact remains unclear. For socialists, the concern in taking a position in such referendums that are not of our making should\x26#8230;\x3c/div\x3e");
+document.write("\x3c/li\x3e");
+document.write("\x3cli\x3e\x3cspan class\x3d\x22headline\x22\x3e\x3ca href\x3d\x22http://www.irishleftreview.org/2016/06/21/bin-charges-private-circus-public-service/\x22 target\x3d\x22_blank\x22 \x3eBin Charges: From Private Circus to Public Service\x3c/a\x3e\x3c/span\x3e");
+document.write("\x3cdiv\x3e The bin charges debacle is spiralling into chaos.\xa0 We have areas where two or three or four bin companies operate and other areas where companies are threatening to leave; escalating charges becoming an intolerable burden on many low-income households; considerable price variations between counties; off-shored private companies pursuing wage\x26#8230;\x3c/div\x3e");
+document.write("\x3c/li\x3e");
+document.write("\x3c/ul\x3e");
+document.write(" \x3cp class\x3d\x22fbsubscribelink\x22\x3e\x3ca href\x3d\x22http://feeds.feedburner.com/irishleftreview/feed\x22\x3e\x3cimg border\x3d\x220\x22 src\x3d\x22//feedburner.google.com/fb/i/icn/feed-icon-10x10.gif\x22/\x3e Subscribe to this Feed\x3c/a\x3e\x3c/p\x3e");
+document.write(" \x3cdiv id\x3d\x22creditfooter\x22\x3e\x3ca href\x3d\x22https://feedburner.google.com\x22 target\x3d\x22_blank\x22\x3e\x3cimg src\x3d\x22//feedburner.google.com/fb/images/buzzboost-pwrd.gif\x22 alt\x3d\x22Headlines by FeedBurner\x22 style\x3d\x22border:0\x22/\x3e\x3c/a\x3e\x3c/div\x3e");
+document.write("\x3c/div\x3e");
+
+
+}
+/*
+     FILE ARCHIVED ON 23:34:37 Dec 21, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:00:51 Jan 19, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 134.92
+  exclusion.robots: 0.065
+  exclusion.robots.policy: 0.056
+  cdx.remote: 0.058
+  esindex: 0.009
+  LoadShardBlock: 67.408 (3)
+  PetaboxLoader3.datanode: 179.083 (5)
+  load_resource: 229.679 (2)
+  PetaboxLoader3.resolve: 76.267 (2)
+*/
