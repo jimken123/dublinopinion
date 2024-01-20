@@ -151,15 +151,15 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
 						var strMimeType = 'video/quicktime';
 						break;
 				}
-				strResult = '<object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="'+numWidth+'" height="'+numHeight+'" codebase="https://web.archive.org/web/20171221233440/http://www.apple.com/qtactivex/qtplugin.cab">';
+				strResult = '<object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="'+numWidth+'" height="'+numHeight+'" codebase="https://web.archive.org/web/20171221230138/http://www.apple.com/qtactivex/qtplugin.cab">';
 				strResult += '	<param name="src" value="'+strMediaFile+'" />';
 				strResult += '	<param name="href" value="'+strMediaFile+'" />';
 				strResult += '	<param name="scale" value="aspect" />';
 				strResult += '	<param name="controller" value="true" />';
 				strResult += '	<param name="autoplay" value="'+strAutoStart+'" />';
 				strResult += '	<param name="bgcolor" value="000000" />';
-				strResult += '	<param name="pluginspage" value="https://web.archive.org/web/20171221233440/http://www.apple.com/quicktime/download/" />';
-				strResult += '	<embed src="'+strMediaFile+'" width="'+numWidth+'" height="'+numHeight+'" scale="aspect" cache="true" bgcolor="000000" autoplay="'+strAutoStart+'" controller="true" src="'+strMediaFile+'" type="'+strMimeType+'" pluginspage="https://web.archive.org/web/20171221233440/http://www.apple.com/quicktime/download/"></embed>';
+				strResult += '	<param name="pluginspage" value="https://web.archive.org/web/20171221230138/http://www.apple.com/quicktime/download/" />';
+				strResult += '	<embed src="'+strMediaFile+'" width="'+numWidth+'" height="'+numHeight+'" scale="aspect" cache="true" bgcolor="000000" autoplay="'+strAutoStart+'" controller="true" src="'+strMediaFile+'" type="'+strMimeType+'" pluginspage="https://web.archive.org/web/20171221230138/http://www.apple.com/quicktime/download/"></embed>';
 				strResult += '</object><br/><br/>';
 				break;
 			case 'wma':
@@ -187,13 +187,13 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
 					strAutoStart = ' play="false"';
 				}
 			
-				strResult = '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://web.archive.org/web/20171221233440/http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"'+strAutoStart+' width="'+numWidth+'" height="'+numHeight+'" menu="true">';
+				strResult = '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://web.archive.org/web/20171221230138/http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"'+strAutoStart+' width="'+numWidth+'" height="'+numHeight+'" menu="true">';
 				strResult += '	<param name="movie" value="'+strMediaFile+'" />';
 				strResult += '	<param name="quality" value="high" />';
 				strResult += '	<param name="menu" value="true" />';
 				strResult += '	<param name="scale" value="noorder" />';
 				strResult += '	<param name="quality" value="high" />';
-				strResult += '	<embed src="'+strMediaFile+'" quality="high" pluginspage="https://web.archive.org/web/20171221233440/http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"'+strAutoStart+' width="'+numWidth+'" height="'+numHeight+'" menu="true"></embed>';
+				strResult += '	<embed src="'+strMediaFile+'" quality="high" pluginspage="https://web.archive.org/web/20171221230138/http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"'+strAutoStart+' width="'+numWidth+'" height="'+numHeight+'" menu="true"></embed>';
 				strResult += '</object>';
 				break;
 			case 'flv':
@@ -223,7 +223,7 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
 				}
 				numWidth = '290';
 				numHeight = '65';
-				strResult = '<object classid="clsid:8AD9C840-044E-11D1-B3E9-00805F499D93" width="'+numWidth+'" height="'+numHeight+'" align="center" codebase="https://web.archive.org/web/20171221233440/http://java.sun.com/products/plugin/1.3/jinstall-13-win32.cab#Version=1,3,0,0">';
+				strResult = '<object classid="clsid:8AD9C840-044E-11D1-B3E9-00805F499D93" width="'+numWidth+'" height="'+numHeight+'" align="center" codebase="https://web.archive.org/web/20171221230138/http://java.sun.com/products/plugin/1.3/jinstall-13-win32.cab#Version=1,3,0,0">';
 				strResult += '	<param name="java_codebase" VALUE="'+podPressBackendURL+'players/" />';
 				strResult += '	<param name="java_code" VALUE="JOrbisPlayer.class" />';
 				strResult += '	<param name="archive" VALUE="JOrbisPlayer.jar,jogg.jar,jorbis.jar" />';
@@ -231,7 +231,7 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
 				strResult += '	<param name="jorbis.player.icestats" VALUE="no" />';
 				strResult += '	<param name="jorbis.player.playonstartup" VALUE="'+strAutoStart+'" />';
 				strResult += '	<param name="type" VALUE="application/x-java-applet;version=1.3" />';
-				strResult += '	<comment><embed type="application/x-java-applet;version=1.3" width="'+numWidth+'" height="'+numHeight+'" java_codebase="'+podPressBackendURL+'players/" java_code="JOrbisPlayer.class" archive="JOrbisPlayer.jar,jogg.jar,jorbis.jar" jorbis.player.play.0="'+strMediaFile+'" jorbis.player.icestats="no" jorbis.player.playonstartup="'+strAutoStart+'" pluginspage="https://web.archive.org/web/20171221233440/http://java.sun.com/products/plugin/1.3/plugin-install.html"></embed></comment>';
+				strResult += '	<comment><embed type="application/x-java-applet;version=1.3" width="'+numWidth+'" height="'+numHeight+'" java_codebase="'+podPressBackendURL+'players/" java_code="JOrbisPlayer.class" archive="JOrbisPlayer.jar,jogg.jar,jorbis.jar" jorbis.player.play.0="'+strMediaFile+'" jorbis.player.icestats="no" jorbis.player.playonstartup="'+strAutoStart+'" pluginspage="https://web.archive.org/web/20171221230138/http://java.sun.com/products/plugin/1.3/plugin-install.html"></embed></comment>';
 				strResult += '</object><br/><br/>';
 				break;
 			case 'mp3':
@@ -393,9 +393,9 @@ if(ap_instances == undefined) {
 
 
 function podPressShowRecorder() {
-	document.getElementById('podPress_audioCommentStatus').innerHTML = '<img src="https://web.archive.org/web/20171221233440/http://podpress.mobatalk.com/images/mobatalk-bullet.jpg" width="16" height="16" border="0" alt="mobatalk-bullet" /> Recording Audio Comment';
+	document.getElementById('podPress_audioCommentStatus').innerHTML = '<img src="https://web.archive.org/web/20171221230138/http://podpress.mobatalk.com/images/mobatalk-bullet.jpg" width="16" height="16" border="0" alt="mobatalk-bullet" /> Recording Audio Comment';
 	document.getElementById('podPress_audioRecorder').style.display = 'block';
-	document.getElementById('podPress_audioRecorder').src = 'https://web.archive.org/web/20171221233440/http://podpress.mobatalk.com/recorder/record_app_JS.asp?code='+podPressMobatalkID+'&retpath='+podPressBackendURL+'mobatalk_audio_comment.php';
+	document.getElementById('podPress_audioRecorder').src = 'https://web.archive.org/web/20171221230138/http://podpress.mobatalk.com/recorder/record_app_JS.asp?code='+podPressMobatalkID+'&retpath='+podPressBackendURL+'mobatalk_audio_comment.php';
 }
 
 function podPressAttachAudioComment(argURL, argSize, argDuration) {
@@ -403,15 +403,15 @@ function podPressAttachAudioComment(argURL, argSize, argDuration) {
 	document.getElementById('podPress_audioCommentURL').value = argURL;
 	document.getElementById('podPress_audioCommentSize').value = argSize;
 	document.getElementById('podPress_audioCommentDuration').value = argDuration;
-	document.getElementById('podPress_audioCommentStatus').innerHTML = '<img src="https://web.archive.org/web/20171221233440/http://podpress.mobatalk.com/images/mobatalk-bullet.jpg" width="16" height="16"  alt="mobatalk-bullet" border="0" /> <font color="green"><b>Audio Comment Attached</b></font><br><object type="application/x-shockwave-flash" data="'+podPressBackendURL+'players/player.swf" width="290" height="24" id="audioplayerNEWCOMMENT"><param name="movie" value="'+podPressBackendURL+'players/player.swf" /><param name="FlashVars" value="playerID=NEWCOMMENT&amp;bg=0xF8F8F8&amp;leftbg=0xEEEEEE&amp;text=0x666666&amp;lefticon=0x666666&amp;rightbg=0xCCCCCC&amp;rightbghover=0x999999&amp;righticon=0x666666&amp;righticonhover=0xFFFFFF&amp;slider=0x666666&amp;track=0xFFFFFF&amp;loader=0x9FFFB8&amp;border=0x666666&amp;soundFile=' + argURL + '" /><param name="quality" value="high" /><param name="menu" value="false" /><param name="wmode" value="transparent" /></object>';
+	document.getElementById('podPress_audioCommentStatus').innerHTML = '<img src="https://web.archive.org/web/20171221230138/http://podpress.mobatalk.com/images/mobatalk-bullet.jpg" width="16" height="16"  alt="mobatalk-bullet" border="0" /> <font color="green"><b>Audio Comment Attached</b></font><br><object type="application/x-shockwave-flash" data="'+podPressBackendURL+'players/player.swf" width="290" height="24" id="audioplayerNEWCOMMENT"><param name="movie" value="'+podPressBackendURL+'players/player.swf" /><param name="FlashVars" value="playerID=NEWCOMMENT&amp;bg=0xF8F8F8&amp;leftbg=0xEEEEEE&amp;text=0x666666&amp;lefticon=0x666666&amp;rightbg=0xCCCCCC&amp;rightbghover=0x999999&amp;righticon=0x666666&amp;righticonhover=0xFFFFFF&amp;slider=0x666666&amp;track=0xFFFFFF&amp;loader=0x9FFFB8&amp;border=0x666666&amp;soundFile=' + argURL + '" /><param name="quality" value="high" /><param name="menu" value="false" /><param name="wmode" value="transparent" /></object>';
 }
 
 
 
 }
 /*
-     FILE ARCHIVED ON 23:34:40 Dec 21, 2017 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 10:00:49 Jan 19, 2024.
+     FILE ARCHIVED ON 23:01:38 Dec 21, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:07:00 Jan 20, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -419,13 +419,13 @@ function podPressAttachAudioComment(argURL, argSize, argDuration) {
 */
 /*
 playback timings (ms):
-  captures_list: 147.021
-  exclusion.robots: 0.099
-  exclusion.robots.policy: 0.088
-  cdx.remote: 0.089
-  esindex: 0.013
-  LoadShardBlock: 89.458 (3)
-  PetaboxLoader3.datanode: 114.642 (5)
-  load_resource: 239.098 (2)
-  PetaboxLoader3.resolve: 201.903 (2)
+  captures_list: 114.937
+  exclusion.robots: 0.085
+  exclusion.robots.policy: 0.075
+  cdx.remote: 0.065
+  esindex: 0.011
+  LoadShardBlock: 43.428 (3)
+  PetaboxLoader3.datanode: 196.013 (4)
+  load_resource: 1472.688
+  PetaboxLoader3.resolve: 1316.355
 */

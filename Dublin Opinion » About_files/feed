@@ -36,8 +36,8 @@ document.write("\x3c/div\x3e");
 
 }
 /*
-     FILE ARCHIVED ON 23:34:37 Dec 21, 2017 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 10:00:51 Jan 19, 2024.
+     FILE ARCHIVED ON 22:57:13 Dec 21, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:06:58 Jan 20, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -45,13 +45,13 @@ document.write("\x3c/div\x3e");
 */
 /*
 playback timings (ms):
-  captures_list: 134.92
-  exclusion.robots: 0.065
-  exclusion.robots.policy: 0.056
-  cdx.remote: 0.058
-  esindex: 0.009
-  LoadShardBlock: 67.408 (3)
-  PetaboxLoader3.datanode: 179.083 (5)
-  load_resource: 229.679 (2)
-  PetaboxLoader3.resolve: 76.267 (2)
+  captures_list: 73.495
+  exclusion.robots: 0.125
+  exclusion.robots.policy: 0.11
+  cdx.remote: 0.085
+  esindex: 0.012
+  LoadShardBlock: 45.494 (3)
+  PetaboxLoader3.datanode: 57.269 (4)
+  load_resource: 85.177
+  PetaboxLoader3.resolve: 42.274
 */
